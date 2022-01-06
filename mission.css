@@ -1,0 +1,79 @@
+h2,
+p {
+  font-family: "Inter", sans-serif;
+}
+.about h2 {
+  text-align: center;
+  margin-bottom: 0rem;
+  text-decoration: underline;
+}
+.about p {
+  margin: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+.podcast h2 {
+  text-align: center;
+  margin-bottom: 0px;
+}
+.podcast p {
+  margin: 5rem;
+  margin-top: 1.5rem;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+.italic {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+.pmain {
+  text-decoration: underline;
+}
+.spotify {
+  margin: 3rem;
+  margin-top: 0px;
+  padding: 3rem;
+}
+.podcast a {
+  color: #100557;
+}
+.podcast a:hover {
+  color: #689fbd;
+}
+@media (max-width: 600px) {
+  .about p {
+    margin: 2rem;
+  }
+  .podcast p {
+    margin: 2rem;
+  }
+  .spotify {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+/* make it so that text is inside a container when the screen size is bigger than 600px */
+@media (min-width: 800px) {
+  .about p,
+  .podcast p,
+  .spotify {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .about p,
+  .podcast p,
+  .spotify {
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+}
