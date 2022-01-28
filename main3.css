@@ -27,6 +27,7 @@
 @media (min-width: 800px) {
   .pic3 {
     max-width: 50%;
+    }
  }
 @media (max-width: 1000px) {
   .pic2 {
