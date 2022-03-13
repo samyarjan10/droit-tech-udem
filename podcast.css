@@ -52,3 +52,9 @@
     height: 210px;
   }
 }
+.bot {
+  color: #100557;
+}
+.bot:hover {
+  color: #689fbd;
+}
