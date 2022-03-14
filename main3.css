@@ -51,6 +51,9 @@ footer {
   color: white;
   align-items: center;
   text-align: center;
+  margin-top: 2rem;
+  position: absolute;
+  width: 100%;
 }
 /* Style all font awesome icons */
 .fa {
@@ -69,7 +72,4 @@ footer {
 .follow {
   padding: 10px;
 }
-.copy {
-  padding: 15px;
-  background-color: #689fbd;
-}
+
